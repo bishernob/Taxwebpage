@@ -25,26 +25,23 @@ var name = prompt("Please enter your name");
 function color() 
 {
     var color = prompt("Enter what color you prefer to be background", color);
+    let color = document.getElementById('id').nodeValue;
     if (color == "orange") 
     {
-      document.getElementById("id").style.background = color;
+        document.getElementById("id").style.background.color = "orange";
     
     }
-    else if (color == "Blue")
+    else if (color == "blue")
     {
-        document.getElementById("id").style.background = color;
+        document.getElementById("id").style.background.color = "blue";
     }
-    else if (person == "Black")
+    else if (person == "black")
     {
-        document.getElementById("id").style.background = color;
+        document.getElementById("id").style.background.color = "black";
     }
-    else if (person == "Purple")
-    {
-        document.getElementById("id").style.background = color;
-    }
+    
     else 
     {
-      document.getElementById("demo").innerHTML =
-      "no color";
+      document.write('input error');
     }
 }
