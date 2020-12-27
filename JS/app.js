@@ -35,9 +35,41 @@ var numberofProperty = prompt("Please enter the number of your Property");
    
     }
 }
-    else {
+ else
+         {
         console.log('Thing was not saved to the database.');
+        }
+
+
+
+
+var Validname = fullname();
+
+var Validage = Userage();
+
+
+function  fullname()
+{
+    var Fullname = prompt('ente your fullname');
+    while(Fullname===''||Fullname===null){
+        Fullname = prompt('ente your fullname');
     }
+    return Fullname;
+}
+
+
+
+function  Userage()
+{
+    var ageofuser = prompt('How old are you');
+    while( ageofuser === ''|| ageofuser ===null)
+    {
+        ageofuser = prompt('How old are you');
+    }
+    return  ageofuser ;
+}
+
+var Acceptmessage = alert('Hi my name is '+ Validname + 'i am '+ Validage);
 
     
 
