@@ -1,0 +1,55 @@
+body 
+    {
+    background-color:rgb(28, 206, 155);
+    }
+    
+
+p   {
+    padding: 30px; 
+    color:hsl(0, 76%, 63%);
+    }
+
+
+#first_id ul  
+    {
+
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    }
+
+li
+    {
+        float: right; 
+        font-size:50px;
+        color:rgb(232, 88, 160);
+        position: relative;
+         padding-left: 11px;
+         list-style-type: none;
+    }  
+#first_id a
+{
+    display: block;  
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#40B896;
+}
+
+.First_class 
+{
+
+    background-color: #163a67;
+ padding: 20px;
+}
+
+img{
+    padding-left: 30px;
+}
+
+#footer {
+    padding: 30px; 
+    text-align: center;
+}

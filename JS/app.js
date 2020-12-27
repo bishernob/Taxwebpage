@@ -37,7 +37,7 @@ var numberofProperty = prompt("Please enter the number of your Property");
 }
     else {
         console.log('Thing was not saved to the database.');
-      }
+    }
 
     
 
@@ -64,4 +64,4 @@ var numberofProperty = prompt("Please enter the number of your Property");
         {
           document.write('input error');
         }
-    }*/
+}*/

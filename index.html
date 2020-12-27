@@ -3,28 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Irbid Branch</title>
 </head>
 <body>
     
    <header>
-    <div>
+    <div class="menu">
       <img src="M&B.png" alt="logo"/>
-      <ul style="float: right; 
-      list-style-type: none; 
-      margin: 0;
-      padding: 0;
-      overflow: hidden;">
-        <li style=" float: left; font-size:50px;"> <a href="index.html" style="display: block;
-            padding: 14px 16px;
-            text-decoration: none;">Home</a></li>
-         <li style=" float: left; font-size:50px;"><a href="AboutUs.html" style="display: block;
-                padding: 14px 16px;
-                text-decoration: none;">About Us</a></li>
-        
-        <li style=" float: left; font-size:50px;"><a href="ContactUs.html" style="display: block;  
-            padding: 14px 16px;
-            text-decoration: none;">Contact  Us</a></li>
+      <ul id="first_id">
+        <li> <a href="index.html">Home</a></li>
+         <li><a href="AboutUs.html">About Us</a></li>      
+        <li><a href="ContactUs.html">Contact  Us</a></li>
        </ul>
     </div>
    </header>
@@ -33,23 +23,23 @@
     <button onclick="color()">Change background-color</button>
 
 
-    <div id="id" style="background-color: #163a67; padding: 20px;">
+    <div class="First_class">
 
 
-        <p style="padding: 30px; color: aliceblue;">We are pioneers in providing various
+        <p>We are pioneers in providing various
             <br>consultations and services in all
             <br>fields with a team of experts and consultants on a local,
             <br>regional, and global scale.
             <br>Our goal is the success of our customers in all respects.</p>
 
-        <img src="Taxation.jpg" style="padding-left: 30px;">
+        <img src="Taxation.jpg">
 
-            <p style="padding-left: 30px ; color:white;"><a href="https://motasemodeh.github.io/tax-consultancy/index">Visit AMMAN Branch</a></p>
+            <p><a style="color: blanchedalmond;"href="https://motasemodeh.github.io/tax-consultancy/index">Visit AMMAN Branch</a></p>
         <p  id="name"></p>    
     </div>
     <script src="JS/app.js"></script>
     
-   <footer style="padding: 30px; text-align: center;">
+   <footer id="footer">
     Copy Right 2020
     </footer>
 </body>
